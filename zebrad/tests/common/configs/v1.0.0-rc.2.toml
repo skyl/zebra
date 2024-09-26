@@ -50,6 +50,8 @@ peerset_initial_target_size = 25
 [rpc]
 debug_force_finished_sync = false
 parallel_cpu_threads = 1
+listen_addr = '0.0.0.0:8235'
+
 
 [state]
 cache_dir = 'cache_dir'
@@ -67,4 +69,3 @@ buffer_limit = 128000
 force_use_color = false
 use_color = true
 use_journald = false
-
