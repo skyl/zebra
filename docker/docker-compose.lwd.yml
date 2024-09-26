@@ -3,7 +3,7 @@ version: "3.8"
 services:
   zebra:
     ports:
-      - "8232:8232" # Opens an RPC endpoint (for lightwalletd and mining)
+      - "8235:8232" # Opens an RPC endpoint (for lightwalletd and mining)
     healthcheck:
       start_period: 1m
       interval: 15s
